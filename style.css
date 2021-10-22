@@ -10,7 +10,7 @@ html, body {
   font-family: 'roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   /* to play with the background gradient */
-  background: linear-gradient(to right, rgba(24, 11, 202, 0.349), rgb(0, 0, 0));
+/*   background: linear-gradient(to right, rgba(24, 11, 202, 0.349), rgb(0, 0, 0)); */
 }
 
 body {
