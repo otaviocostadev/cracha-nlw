@@ -18,7 +18,12 @@ This project was developed with the following technologies:
 ## 💻 Project
 
 Virtual Badge is a static application with the objective of showing user information brought from the GitHub API and inserting it in a layout.
+  Check out the project
+[On here](https://otaviocostadev.github.io/cracha-nlw/)
 
 ## 🔖 Layout
 
 You can see the project layout through [from this link](<https://www.figma.com/file/9Z2vxc8VTRuZpYjFalCMAl/Badge-Do-While2021-(Copy)?node-id=0%3A1>). It is necessary to have an account in the [Figma](https://figma.com) to access it.
+  
+  Check out the project
+[On here](https://otaviocostadev.github.io/cracha-nlw/)
