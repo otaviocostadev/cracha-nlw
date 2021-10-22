@@ -19,7 +19,7 @@ This project was developed with the following technologies:
 
 Virtual Badge is a static application with the objective of showing user information brought from the GitHub API and inserting it in a layout.
   Check out the project
-[On here](https://otaviocostadev.github.io/cracha-nlw/)
+[On here](https://otaviocostadev.github.io/virtual-badge-nlw/)
 
 ## 🔖 Layout
 
