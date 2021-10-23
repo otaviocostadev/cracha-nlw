@@ -7,8 +7,7 @@
 </p>
   
 <h1 align="center">
-  On the desktop
-
+  On the desktop 🖥 💻
 </h1>
   
 <p align="center">
@@ -16,7 +15,7 @@
 </p>
   
 <h1 align="center">
-  On mobile
+  On mobile 📱
 </h1>
   
 ## 🚀 Technologies
