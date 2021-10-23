@@ -2,9 +2,20 @@
   Virtual badge created at Rocketseat NLW-Heat 🚀
 </h1>
 
+<h1 align="center">
+  On the desktop
+</h1>
 
 <p align="center">
-<img src= "https://user-images.githubusercontent.com/86134783/138464184-ee0280e2-d07c-4c18-b4bd-5fb1a6e49d69.jpeg" width="250px"
+<img src= "https://user-images.githubusercontent.com/86134783/138542661-829543d0-8b8f-42e6-997a-d284dd182bed.png" width="800px"
+</p>
+  
+<h1 align="center">
+  On mobile
+</h1>
+
+<p align="center">
+<img src= "https://user-images.githubusercontent.com/86134783/138542689-7dc6b598-0050-42b9-be9f-a81e8e86472b.jpeg" width="240px"
 </p>
   
 ## 🚀 Technologies
