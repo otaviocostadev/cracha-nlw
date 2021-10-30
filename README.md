@@ -3,11 +3,11 @@
 </h1>
 
 <p align="center">
-<img src= "https://user-images.githubusercontent.com/86134783/138542661-829543d0-8b8f-42e6-997a-d284dd182bed.png" width="800px"
+<img src= "https://user-images.githubusercontent.com/86134783/139555837-def9727d-0806-42c6-8d3f-ccb364464b80.png" width="800px"
 </p>
   
 <h1 align="center">
-  On the desktop 🖥 💻
+  On the desktop 🖥
 </h1>
   
 <p align="center">
