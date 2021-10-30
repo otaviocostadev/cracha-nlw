@@ -1,0 +1,201 @@
+*{
+  margin: 0%;
+}
+
+html, body {
+  --black: hsl(240, 6%, 13%);
+  --grey: hsl(240, 9%, 89%);
+
+  height: 100%;
+  font-family: 'roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+#particles-js {
+  display: none;
+}
+
+main {
+  background: url(images/background.svg) no-repeat center/cover;
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
+}
+
+.container {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  color: var(--grey);
+}
+
+.avatar {
+  width: 10rem;
+  margin: 11.5rem auto 0;
+
+  position: relative;
+}
+
+.avatar span {
+  position: absolute;
+  top: -15px;
+  z-index: 1;
+}
+
+/* Personal photo in polygon format */
+.avatar > img {
+  width: 10rem;
+  height: 11.5rem;
+  object-fit: cover;
+
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+/* Rotational animation of the rocketseat seal */
+.avatar-seal {
+  animation: rotation 15s infinite linear;
+}
+
+@keyframes rotation {
+  from{
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* hover effect on github */
+.icon-github {
+  position: relative;
+  border-radius: 0.25rem;
+  width: 18px;
+  top: 0;
+  transition: all ease 0.3s;
+}
+
+.icon-github:hover {
+  border-radius: 50%;
+  top: -8px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+a {
+  color: var(--grey);
+  text-decoration: none;
+  margin-top: 0.25rem;
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+p {
+  margin-top:  2rem;
+  cursor: default;
+}
+
+ul {
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+/* Here's a hover effect for social media */
+.social-btn {
+  position: relative;
+  border-radius: 0.25rem;
+  width: 50px;
+  top: 0;
+  transition: all ease 0.3s;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.692);
+  -moz-box-shadow:    7px 7px 5px 0px rgba(0, 0, 0, 0.39);
+  box-shadow:         7px 7px 5px 0px rgba(0, 0, 0, 0.247);
+}
+
+.social-btn:hover {
+  border-radius: 50%;
+  top: -8px;
+}
+
+/* Desktop version styles */
+@media (min-width: 720px) {
+  body {
+    background: url(images/Desktop.svg) no-repeat center/cover;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  #particles-js {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .badge {
+    display: grid;
+    place-items: center;
+    position: relative;
+    top: 0;
+  }
+
+  .range {
+    width: 4rem;
+    height: 9.875rem;
+    background: linear-gradient(161.24deg, #000000 -15.25%, #0F9B0F 111.89%);
+    position: absolute;
+    top: 0;
+    z-index: 2;
+  }
+
+  .smash {
+    background: #121214;
+    width: 5rem;
+    height: 0.5rem;
+    top: 156px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  main {
+    background: url(images/background2.svg) #202024;
+    width: 22.375rem;
+    min-height: 33.75rem;
+    height: 33.75rem;
+    position: absolute;
+    top: 140px;
+    border-radius: 2rem;
+    
+/* glassEfect */
+    /* background-color: rgba(48, 43, 43, 0.356);
+    backdrop-filter: saturate(180%) blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid #000000;
+    z-index: 0; */
+
+}  
+  
+  .container {
+    position: absolute;
+    top: -120px;
+    left: 55px;
+  }
+
+}
+
