@@ -11,7 +11,7 @@
 </h1>
   
 <p align="center">
-<img src= "https://user-images.githubusercontent.com/86134783/138542689-7dc6b598-0050-42b9-be9f-a81e8e86472b.jpeg" width="240px"
+<img src= "https://user-images.githubusercontent.com/86134783/139556190-96119bcd-9ac8-4bab-a861-6fcb0efbbf1b.png" width="240px"
 </p>
   
 <h1 align="center">
